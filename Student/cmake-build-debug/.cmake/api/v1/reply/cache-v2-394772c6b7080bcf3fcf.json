@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/erika/CLionProjects/Gyakorlatok/Student/cmake-build-debug"
+			"value" : "c:/Users/erika/CLionProjects/Gyakorlatok/ELMELET/DSA_ELMELET/Student/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/erika/CLionProjects/Gyakorlatok/Student"
+			"value" : "C:/Users/erika/CLionProjects/Gyakorlatok/ELMELET/DSA_ELMELET/Student"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/erika/CLionProjects/Gyakorlatok/Student/cmake-build-debug"
+			"value" : "C:/Users/erika/CLionProjects/Gyakorlatok/ELMELET/DSA_ELMELET/Student/cmake-build-debug"
 		},
 		{
 			"name" : "Student_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/erika/CLionProjects/Gyakorlatok/Student"
+			"value" : "C:/Users/erika/CLionProjects/Gyakorlatok/ELMELET/DSA_ELMELET/Student"
 		}
 	],
 	"kind" : "cache",

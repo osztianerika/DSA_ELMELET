@@ -10,23 +10,23 @@
 
 char *getMarksType(enum MarksType type) {
     switch(type){
-        case Excellent:
-            return "Excellent";
+        case EXCELLENT:
+            return "EXCELLENT";
             break;
-        case Insufficient:
-            return "Insufficient";
+        case INSUFFICIENT:
+            return "INSUFFICIENT";
             break;
         case GOOD:
-            return "Good";
+            return "GOOD";
             break;
-        case Satisfactorily:
-            return "Satisfactorily";
+        case SATISFACTORILY:
+            return "SATISFACTORILY";
             break;
-        case Bad:
-            return "Bad";
+        case BAD:
+            return "BAD";
             break;
         default:
-            return "Undefined";
+            return "UNDEFINED";
     }
 }
 
@@ -49,18 +49,18 @@ void setStudent(STUDENT *student, char *name,float lab_mark, float t_test, float
     ((student->t_test * k1 + student->examen_t_test * k2) * k3 + student->examen_practice * k3) * k4 +
     student->lab_mark * k5;
     if (student->final_mark == 10)
-        student->result = Excellent;
+        student->result = EXCELLENT;
     if (student->final_mark < 10 && student->final_mark >= 8)
         student->result = GOOD;
     if (student->final_mark < 8 && student->final_mark >= 6)
-        student->result = Satisfactorily;
+        student->result = SATISFACTORILY;
     if (student->final_mark < 6 && student->final_mark >= 5)
-        student->result = Bad;
+        student->result = BAD;
     if (student->final_mark < 4)
-        student->result = Insufficient;
+        student->result = INSUFFICIENT;
     }
 
-void print_Student(STUDENT *student) {
+void printStudent(STUDENT *student) {
     if (student) {
         printf("Student: %s\n", student->name);
 

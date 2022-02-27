@@ -1,20 +1,10 @@
 # ninja log v5
-1	438	6676458489468922	build.ninja	26c4773b25191a19
-1	153	6674780428580199	CMakeFiles/Student.dir/src/main.c.obj	2ef3e72d96671634
-172	377	6674780430774302	Student.exe	43f2d0862f5de5fd
-5	171	6674780428769669	CMakeFiles/Student.dir/src/marks.c.obj	4607a29016c3d220
-3	431	6676464382968599	CMakeFiles/Student.dir/src/main.c.obj	b23a29518efe994b
-31	444	6676464383038411	CMakeFiles/Student.dir/src/marks.c.obj	49dced52669011e4
-445	1042	6676464389201913	Student.exe	43f2d0862f5de5fd
-2	155	6676464820332057	CMakeFiles/Student.dir/src/main.c.obj	b23a29518efe994b
-157	393	6676464822615946	Student.exe	43f2d0862f5de5fd
-3	181	6676466915574871	CMakeFiles/Student.dir/src/marks.c.obj	49dced52669011e4
-182	388	6676466917609420	Student.exe	43f2d0862f5de5fd
-4	182	6676467089803112	CMakeFiles/Student.dir/src/marks.c.obj	49dced52669011e4
-183	392	6676467091837662	Student.exe	43f2d0862f5de5fd
-3	169	6676467434249767	CMakeFiles/Student.dir/src/marks.c.obj	49dced52669011e4
-170	355	6676467436065262	Student.exe	43f2d0862f5de5fd
-26	409	6676472033362907	CMakeFiles/Student.dir/src/main.c.obj	b23a29518efe994b
+1	438	6676597342931254	build.ninja	26c4773b25191a19
 3	206	6676472308556722	CMakeFiles/Student.dir/src/main.c.obj	b23a29518efe994b
-4	211	6676473349753881	CMakeFiles/Student.dir/src/marks.c.obj	49dced52669011e4
 212	527	6676473352845614	Student.exe	43f2d0862f5de5fd
+4	211	6676473349753881	CMakeFiles/Student.dir/src/marks.c.obj	49dced52669011e4
+6	275	6676598913441305	CMakeFiles/Student.dir/src/main.c.obj	e4d5a460c194172e
+37	294	6676598913690641	CMakeFiles/Student.dir/src/marks.c.obj	17c610c6187b8cc5
+294	562	6676598916323592	Student.exe	43f2d0862f5de5fd
+3	184	6676599579414485	CMakeFiles/Student.dir/src/marks.c.obj	17c610c6187b8cc5
+185	432	6676599581439091	Student.exe	43f2d0862f5de5fd

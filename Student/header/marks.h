@@ -11,11 +11,11 @@
 #define k5 0.4
 
 enum MarksType{
-    Excellent,
+    EXCELLENT,
     GOOD,
-    Satisfactorily,
-    Bad,
-    Insufficient
+    SATISFACTORILY,
+    BAD,
+    INSUFFICIENT
 };
 
 typedef struct {
@@ -34,5 +34,5 @@ void createStudent(STUDENT** student);
 
 void setStudent(STUDENT *student, char* name,float lab_mark, float t_test, float examen_t_test, float examen_practice);
 
-void print_Student(STUDENT *student);
+void printStudent(STUDENT *student);
 #endif //STUDENT_MARKS_H
