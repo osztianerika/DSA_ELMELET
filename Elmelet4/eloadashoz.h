@@ -1,36 +1,28 @@
 //
-// Created by erika on 3/12/2022.
+// Created by markp on 3/11/2022.
 //
 
-#ifndef ELMELET4_ELOADASHOZ_H
-#define ELMELET4_ELOADASHOZ_H
-//
-// Created by SP on 2022. 03. 11..
-//
+#ifndef INC_4__HET_ELOADAS_H
+#define INC_4__HET_ELOADAS_H
 
-
-#include <malloc.h>
-#include <string.h>
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 typedef struct {
-    int ev;
-    char hely[20];
-} KIADAS;
+    int evszam;
+    char kiadasi_hely[20];
+}KIADAS;
+
 typedef struct {
     char cim[20];
     int oldalszam;
     KIADAS kiadas;
-} KONYV;
+}KONYV;
 
-void createKonyv(KONYV **konyv);
+void createKonyv(KONYV** konyv);
+void setKonyvData(KONYV* konyv,char* cim,int oldalszam,KIADAS kiadas);
+void printKonyv(KONYV* konyv);
+void deleteKonyv(KONYV**);
 
-void setData(KONYV *konyv, char *cim, int oldal, KIADAS kiadas);
-
-void printKonyv(KONYV *konyv);
-
-void deleteKonyv(KONYV **konyv);
-
-
-#endif //ELMELET4_ELOADASHOZ_H
+#endif //INC_4__HET_ELOADAS_H
